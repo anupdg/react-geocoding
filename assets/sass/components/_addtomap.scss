@@ -1,0 +1,17 @@
+.addMapContainer{
+    margin: 15px 0px;
+    .formField {
+        margin-top: 15px;
+        label.text, label.validation, input, textarea{
+            display:block;
+            width: 100%;
+            margin-top: 3px
+        }
+    }
+    .operations{
+        margin-top: 10px;
+    } 
+    .srv-validation-message{
+        color: $lightredtext
+    }
+}

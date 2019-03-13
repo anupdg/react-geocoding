@@ -1,0 +1,41 @@
+.mapContainer{
+    width:100%;
+    div{
+        .map{
+            width: 50%!important;
+        }
+        .grid{
+            margin: 15px;
+            width: 45%!important;
+            position: absolute;
+            right:0;
+            .item{
+                margin: 20px 10px 0px 0px;
+                width:45%!important;
+                float: left;
+                .header{
+                    font-weight: bold;
+                    color: $theme-primary;
+                    font-size: 115%
+                }
+                .btn-container{
+                    margin-top: 10px
+                }
+            }
+            .message{
+                margin-left: 10px;
+            }
+            .success{
+                color:$leafgreen;
+                display: inline;
+            }
+            .error{
+                color: $lightredtext;
+                display: inline;
+            }
+            .none{
+                display: none;
+            }
+        }       
+    }
+}

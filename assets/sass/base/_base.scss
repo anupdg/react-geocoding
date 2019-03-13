@@ -1,0 +1,47 @@
+body {
+    font-family: Roboto,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #fff;
+    transition: all .5s ease;
+    padding-bottom: 3.6rem;
+    margin: 0px;
+    padding: 0px;
+}
+.btn {
+    margin-bottom: 0; // For input.btn
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    touch-action: manipulation;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 100%;
+    padding: 10px;
+    display: inline-block;
+    background-image: none; 
+    border: 1px solid transparent;
+    
+  }
+
+.btn-primary {
+    color:$white;
+    background-color: $primary-inner;
+    border-color:$primary-inner;
+}
+  
+.btn-default {
+    color:$black;
+    background-color: $white;
+    border-color:$border-table-cell;
+}
+.btn-danger {
+    color: $white;
+    background-color: $pink;
+    border-color: $pink;
+}
+.btn-success {
+    color: $white;
+    background-color: $leafgreen;
+    border-color: $leafgreen;
+}

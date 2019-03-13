@@ -1,0 +1,24 @@
+{
+    "translations": {
+        "mapcontainer.label.lat":"Latitude",
+        "mapcontainer.label.long":"Longitude",
+        "mapcontainer.operations.add_map":"Add map",
+        "mapcontainer.operations.edit":"Edit",
+        "mapcontainer.operations.delete":"Delete",
+        "mapcontainer.add_form.label.place_name":"Place name",
+        "mapcontainer.add_form.label.tooltip":"Map tooltip",
+        "mapcontainer.add_form.label.lat":"Latitude",
+        "mapcontainer.add_form.label.long":"Longitude",
+        "mapcontainer.add_form.operations.save": "Save",
+        "mapcontainer.add_form.operations.cancel": "Cancel"
+        
+        
+
+    },
+    "locales": [
+        "en",
+        "th"
+    ],
+    "defaultLocale": "en",
+    "selectedLocale": "en"
+}

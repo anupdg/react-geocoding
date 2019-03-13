@@ -1,0 +1,14 @@
+{
+    "apis": {
+        "baseurl":"http://localhost:5000",
+        "portalSettings": "http://localhost:3001/data/portalsettings.json",
+        "markerList": "api/:lang/map",
+        "markerDelete": "api/:lang/map/:id",
+        "markerInsert":"/api/map",
+        "markerUpdate":"/api/map/:id"
+       
+        
+    },
+    "apiKey": "google-geocoding-api-key"
+   
+}
